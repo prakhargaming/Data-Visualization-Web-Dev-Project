@@ -8,23 +8,27 @@ This was a data visualization web development project that used a React, SocketI
 
 To run this application, please follow these steps (please note, the data vizualization aspect will not work since the ML waterbirds dataset is not included in this repo):
 1)  Clone the repo 
-2)  `cd` into the repo and input these commands: \
-        ```bash
-        python3 -m venv env
-        source env/bin/activate
-        pip install -r requirements.txt```
-3) `cd` into the front end folder and run these commands: \
-        ```bash
-        npm i react-scripts```
-4) To run locally, split your terminal. Input these commands at the root of the application in the first terminal window: \
-        ```bash
-        cd webSocket-App
-        source env/bin/activate
-        python3 server.py```
-5) In the second terminal window: \
-        ```bash
-        cd webSocket-App/front-end
-        npm start```
+2)  `cd` into the repo and input these commands: 
+    ```bash
+        python3 -m venv env  
+        source env/bin/activate  
+        pip install -r requirements.txt
+    ```
+3) `cd` into the front end folder and run these commands: 
+    ```bash
+        npm i react-scripts
+    ```
+4) To run locally, split your terminal. Input these commands at the root of the application in the first terminal window: 
+    ```bash  
+        cd webSocket-App  
+        source env/bin/activate  
+        python3 server.py
+    ```
+5) In the second terminal window: 
+    ```bash  
+        cd webSocket-App/front-end  
+        npm start
+    ```
 
-Here is a GIF of the web app working in action.
+Here is a GIF of the web app working in action. \
 ![](/applicationDemo.gif)
