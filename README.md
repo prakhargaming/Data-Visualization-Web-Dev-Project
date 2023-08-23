@@ -6,7 +6,7 @@ This was a data visualization web development project that used a React, SocketI
 -	Back end was developed using Flask, Python, PyTorch, NumPy, and OpenCV
 -	Machine learning/Data Visualization aspect was visualizing the second to last layer of the ResNet-50 network with the use of forward hooks and TSNE analysis
 
-To run this application, please follow these steps:
+To run this application, please follow these steps (please note, the data vizualization aspect will not work since the ML waterbirds dataset is not included in this repo):
 1)  Clone the repo 
 2)  `cd` into the repo and input these commands: \
         ```bash
@@ -25,3 +25,5 @@ To run this application, please follow these steps:
         ```bash
         cd webSocket-App/front-end
         npm start```
+
+![](/applicationDemo.gif)
