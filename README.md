@@ -26,4 +26,5 @@ To run this application, please follow these steps (please note, the data vizual
         cd webSocket-App/front-end
         npm start```
 
+Here is a GIF of the web app working in action.
 ![](/applicationDemo.gif)
